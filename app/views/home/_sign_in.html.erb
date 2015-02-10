@@ -1,5 +1,5 @@
 <%= form_for :user, :url => user_session_path,
-                    :builder => InlineErrorsBuilder,
+                    :builder => ApplicationHelper::InlineErrorsBuilder, 
                     :method => :POST,
                     :role => :form do |f| %>
   <br />                  
