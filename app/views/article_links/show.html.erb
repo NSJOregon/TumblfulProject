@@ -1,0 +1,2 @@
+<p> <%= link_to @article_link.title, article_link_path(@article_link) %></p>
+<p>  <%= content_tag :p, @article_link.url %> | <%= link_to 'Edit', edit_article_link_path(@article_link) %> </p>
