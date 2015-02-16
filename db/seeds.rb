@@ -13,3 +13,6 @@ ImageLink.create(url: 'https://lh6.googleusercontent.com/-NxZGUZXZg6A/AAAAAAAAAA
 TextPost.create(title: "Hippo in the House1", post: "Blah 1blah blah hippy hopp text blah blah")
 TextPost.create(title: "Hippo in the House2", post: "Blah 2blah blah hippy hopp text blah blah")
 TextPost.create(title: "Hippo in the House3", post: "Blah 3blah blah hippy hopp text blah blah")
+ArticleLink.create(url: 'https://pbs.twimg.com/profile_images/378800000577077151/4956a8032dd8549b99463f8501fe88bf_400x400.png', title: 'Thinkful logo')
+ArticleLink.create(url: 'http://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Ruby_on_Rails.svg/791px-Ruby_on_Rails.svg.png', title: "Rails logo" )
+ArticleLink.create(url: 'https://lh6.googleusercontent.com/-NxZGUZXZg6A/AAAAAAAAAAI/AAAAAAAAAAc/QS4oVJL2NgI/photo.jpg', title: "Ruby logo")

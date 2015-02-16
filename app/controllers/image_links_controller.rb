@@ -14,7 +14,7 @@ end
 
 def new
 
-
+  @image_link = ImageLink.new
   
 end
 
@@ -26,7 +26,7 @@ end
 
 def create
   
-  @image_link = ImageLink.new(image_link_params)
+ @image_link = ImageLink.new(url: params[:image_link][:url], title: params[:image_link][:title])
 if @image_link.save
   redirect_to image_links_path
 else

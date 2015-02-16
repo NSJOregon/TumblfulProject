@@ -7,7 +7,7 @@ class TextPostsController < ApplicationController
 
   def show
     @text_post = TextPost.find(params[:id])
-    fail
+    
   end
 
   def new

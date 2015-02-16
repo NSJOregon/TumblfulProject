@@ -1,4 +1,10 @@
 <% @text_posts.each do |text_post| %>
-<%= content_tag :p, text_post.title %>
-<%= content_tag :p, text_post.post %>
-<% end %>
+   <%= div_for text_post do %>
+      <%= content_tag :p, text_post.title %>
+      <%= content_tag :p, text_post.post %>
+          <p>
+            <%= link_to "Show", text_post_path(text_post) %> |
+          </p>
+      <% end %>
+   <% end %>
+</div>
