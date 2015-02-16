@@ -48,15 +48,18 @@ end
 # Use Devise for authentication: https://github.com/plataformatec/devise#getting-started
 gem 'devise'
 
+# Use FFaker for random seed generation: https://github.com/EmmanuelOga/ffaker
+  gem 'ffaker', '~> 1.32.1'
+
 group :development, :test do
   # Use RSpec for testing: https://github.com/rspec/rspec-rails
   gem 'rspec-rails', '~> 2.0'
   # Use Factory Girl for Active Record sample instance object creation: https://github.com/thoughtbot/factory_girl/blob/master/GETTING_STARTED.md
   gem 'factory_girl_rails'
-  # Use FFaker for random seed generation: https://github.com/EmmanuelOga/ffaker
-  gem 'ffaker', '~> 1.32.1'
   # Use Shoulda Matchers for validation and association testing: https://github.com/thoughtbot/shoulda-matchers
   gem 'shoulda-matchers'
 end
+
+gem 'rb-readline', "~> 0.5.0.pre.1", :require => false
 
 
